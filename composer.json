@@ -1,0 +1,21 @@
+{
+    "name": "evanyu/make-doc",
+    "description": "用于根据请求自动生成测试用例及文档",
+    "authors": [
+        {
+            "name": "evanyu",
+            "email": "zhiwen.yu@slicejobs.com.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MakeDoc\\": "src/"
+        }
+    }
+}
